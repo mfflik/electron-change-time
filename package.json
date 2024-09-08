@@ -1,0 +1,19 @@
+{
+  "name": "@odds-electron/electron-change-time",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^32.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "sudo-prompt": "^9.2.1"
+  }
+}

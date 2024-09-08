@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change System Time</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    input {
+      padding: 5px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Change System Time</h1>
+  
+  <label for="dateTime">Select Date and Time:</label>
+  <input type="datetime-local" id="dateTime">
+  <br>
+  <button id="changeTimeBtn">Change Time</button>
+  
+  <p id="status"></p>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
